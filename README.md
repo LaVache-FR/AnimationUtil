@@ -6,30 +6,30 @@ Render example >
 https://gyazo.com/780b5d84f7bc69f863acdcc7022591fe
 
 
-Exemple example of how to use it.
+Exemple of how to use it.
 
 ```java
 
 //Variable Initialization
-Animate anim1 = new Animate();
+Animate anim = new Animate();
 
 //Set Easing Method
-anim1.setEase(Easing.CUBIC_OUT);
+anim.setEase(Easing.CUBIC_OUT);
 
 //Set min Value
-anim1.setMin(20);
+anim.setMin(20);
 
 //Set max Value
-anim1.setMax(440);
+anim.setMax(440);
 
 //Set Animation Duration
-anim1.setSpeed(200);
+anim.setSpeed(200);
 
 //Set Reversed Animation
-anim1.setReversed(false);
+anim.setReversed(false);
 
 //Update Animation
-anim1.update();
+anim.update();
 
 drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
 ```
