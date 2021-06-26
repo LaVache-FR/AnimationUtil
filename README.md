@@ -33,4 +33,8 @@ anim.update();
 
 //Draw Rectangle, X, Y, WIDTH, HEIGHT, COLOR.
 drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
+
+//Reset Animation
+if(Mouse.isButtonDown(0))
+   anim.reset();
 ```
