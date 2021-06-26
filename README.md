@@ -31,5 +31,6 @@ anim.setReversed(false);
 //Update Animation
 anim.update();
 
+//Draw Rectangle, X, Y, WIDTH, HEIGHT, COLOR.
 drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
 ```
