@@ -17,10 +17,10 @@ Animate anim = new Animate();
 anim.setEase(Easing.CUBIC_OUT);
 
 //Set min Value
-anim.setMin(20);
+anim.setMin(10);
 
 //Set max Value
-anim.setMax(440);
+anim.setMax(500);
 
 //Set Animation Duration
 anim.setSpeed(200);
