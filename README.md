@@ -38,3 +38,20 @@ drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
 if(Mouse.isButtonDown(0))
    anim.reset();
 ```
+
+OR
+
+```java
+//Variable Initialization
+Animate anim = new Animate();
+
+//Set Easing Method
+anim.setEase(Easing.CUBIC_OUT).anim.setMin(10).anim.setMax(500).anim.setSpeed(200).anim.setReversed(false).anim.update();
+
+//Draw Rectangle, X, Y, WIDTH, HEIGHT, COLOR.
+drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
+
+//Reset Animation
+if(Mouse.isButtonDown(0))
+   anim.reset();
+
