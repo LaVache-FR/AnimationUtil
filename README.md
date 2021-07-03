@@ -46,7 +46,7 @@ OR
 Animate anim = new Animate();
 
 //Set Easing Method
-anim.setEase(Easing.CUBIC_OUT).anim.setMin(10).anim.setMax(500).anim.setSpeed(200).anim.setReversed(false).anim.update();
+anim.setEase(Easing.CUBIC_OUT).setMin(10).setMax(500).setSpeed(200).setReversed(false).update();
 
 //Draw Rectangle, X, Y, WIDTH, HEIGHT, COLOR.
 drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
@@ -54,4 +54,4 @@ drawRect(anim.getValue(), 10, 20, 20, 0xFFFFFFFF);
 //Reset Animation
 if(Mouse.isButtonDown(0))
    anim.reset();
-
+```
