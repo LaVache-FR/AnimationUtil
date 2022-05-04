@@ -24,7 +24,8 @@ public class Animate {
             if (time < max) time += (Delta.DELTATIME * .001F * speed);
         }
         time = clamp(time, min, max);
-        this.value = getEase().ease(time, min, max, max);
+        float easeVal = getEase().ease(time, min, max, max);
+        this.value = (easeVal > max) ? max : easeVal;
         return this;
     }
 
